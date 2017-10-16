@@ -9,8 +9,11 @@ input_reader = csv.reader(input_csvFile)
 record = {}
 index = 0
 for item in input_reader:
+    if input_reader.line_num == 1:
+        continue
     record[index] = []
     record[index].append(item[3])
+    record[index].append(item[7])
     record[index].append(item[14])
     index = index + 1
 
@@ -45,8 +48,17 @@ for line in output_reader:
 
 # print(large_type_list,middle_type_list)
 
-sales_amount ={}
+# total sales count of large type and middle type
+sales_count ={}
 for item in middle_type_list:
-    sales_amount[item] = 0
-# for 
-# print(sales_amount)
+    sales_count[item] = 0
+for item in large_type_list:
+    sales_count[item] = 0
+
+for item in record:
+    if record[item][0][0:2] in sales_count:
+        sales_count[record[item][0][0:2]] += 1
+    if record[item][0] in sales_count:
+        sales_count[record[item][0]] += 1
+
+print(sales_count)
