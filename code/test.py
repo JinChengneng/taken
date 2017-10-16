@@ -5,16 +5,16 @@ import csv
 input_csvFile = open("../rawData/raw_data.csv", "r")
 input_reader = csv.reader(input_csvFile)
 
-#result is the dictionary combined by middle type id and sales amount
-result = {}
+#record is the array combined by middle type id and sales amount
+record = {}
 index = 0
 for item in input_reader:
-    result[index] = []
-    result[index].append(item[3])
-    result[index].append(item[14])
+    record[index] = []
+    record[index].append(item[3])
+    record[index].append(item[14])
     index = index + 1
 
-print(result)
+# print(record)
 
 input_csvFile.close()
 
@@ -44,3 +44,9 @@ for line in output_reader:
         item_list.append(line[0])
 
 # print(large_type_list,middle_type_list)
+
+sales_amount ={}
+for item in middle_type_list:
+    sales_amount[item] = 0
+# for 
+# print(sales_amount)
