@@ -2,7 +2,7 @@
 
 import csv
 
-input_csvFile = open("../rawData/raw_data.csv", "r")
+input_csvFile = open("../rawData/raw_data.csv", "r",encoding="utf-8")
 input_reader = csv.reader(input_csvFile)
 
 #record is the array combined by middle type id and sales amount
@@ -22,7 +22,7 @@ for item in input_reader:
 input_csvFile.close()
 
 
-output_csvFile = open("../rawData/sample_output.csv", "r")
+output_csvFile = open("../rawData/sample_output.csv", "r",encoding="utf-8")
 output_reader = csv.reader(output_csvFile)
 
 #fetch the list of types in output file
@@ -46,7 +46,7 @@ for line in output_reader:
             large_type_list.append(line[0])
         item_list.append(line[0])
 
-# print(large_type_list,middle_type_list)
+print(large_type_list,middle_type_list)
 
 # total sales count of large type and middle type
 sales_count ={}
