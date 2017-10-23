@@ -14,8 +14,8 @@
       <file leaf-file-name="WeightedAverage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WeightedAverage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="199" column="66" lean-forward="false" selection-start-line="199" selection-start-column="66" selection-end-line="199" selection-end-column="66" />
+            <state relative-caret-position="292">
+              <caret line="297" column="48" lean-forward="false" selection-start-line="297" selection-start-column="48" selection-end-line="297" selection-end-column="48" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
                 <element signature="e#123#801#0" expanded="false" />
@@ -24,12 +24,11 @@
                 <element signature="e#2288#3049#0" expanded="false" />
                 <element signature="e#3120#4405#0" expanded="false" />
                 <element signature="e#4506#5098#0" expanded="false" />
-                <element signature="e#4604#5076#0" expanded="false" />
                 <element signature="e#5231#5590#0" expanded="false" />
-                <element signature="e#5684#6480#0" expanded="false" />
-                <element signature="e#6600#6824#0" expanded="false" />
-                <element signature="e#6942#7709#0" expanded="false" />
-                <element signature="e#7786#8761#0" expanded="false" />
+                <element signature="e#6898#7694#0" expanded="false" />
+                <element signature="e#7814#8038#0" expanded="false" />
+                <element signature="e#8167#8924#0" expanded="false" />
+                <element signature="e#9001#9976#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -116,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -129,6 +127,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,13 +274,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28805238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28805238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -297,7 +296,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -314,12 +313,64 @@
             <element signature="e#2288#3049#0" expanded="false" />
             <element signature="e#3120#4405#0" expanded="false" />
             <element signature="e#4506#5098#0" expanded="false" />
-            <element signature="e#4604#5076#0" expanded="false" />
             <element signature="e#5231#5590#0" expanded="false" />
-            <element signature="e#5684#6480#0" expanded="false" />
-            <element signature="e#6600#6824#0" expanded="false" />
-            <element signature="e#6942#7709#0" expanded="false" />
-            <element signature="e#7786#8761#0" expanded="false" />
+            <element signature="e#6898#7694#0" expanded="false" />
+            <element signature="e#7814#8038#0" expanded="false" />
+            <element signature="e#8167#8924#0" expanded="false" />
+            <element signature="e#9001#9976#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format_example.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validate_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mType_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wType_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeightedAverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#123#801#0" expanded="false" />
+            <element signature="e#863#1370#0" expanded="false" />
+            <element signature="e#1485#2229#0" expanded="false" />
+            <element signature="e#2288#3049#0" expanded="false" />
+            <element signature="e#3120#4405#0" expanded="false" />
+            <element signature="e#4506#5098#0" expanded="false" />
+            <element signature="e#5231#5590#0" expanded="false" />
+            <element signature="e#6898#7694#0" expanded="false" />
+            <element signature="e#7814#8038#0" expanded="false" />
+            <element signature="e#8167#8924#0" expanded="false" />
+            <element signature="e#9001#9976#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -368,12 +419,11 @@
             <element signature="e#2288#3049#0" expanded="false" />
             <element signature="e#3120#4405#0" expanded="false" />
             <element signature="e#4506#5098#0" expanded="false" />
-            <element signature="e#4604#5076#0" expanded="false" />
             <element signature="e#5231#5590#0" expanded="false" />
-            <element signature="e#5684#6480#0" expanded="false" />
-            <element signature="e#6600#6824#0" expanded="false" />
-            <element signature="e#6942#7709#0" expanded="false" />
-            <element signature="e#7786#8761#0" expanded="false" />
+            <element signature="e#6898#7694#0" expanded="false" />
+            <element signature="e#7814#8038#0" expanded="false" />
+            <element signature="e#8167#8924#0" expanded="false" />
+            <element signature="e#9001#9976#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -422,12 +472,11 @@
             <element signature="e#2288#3049#0" expanded="false" />
             <element signature="e#3120#4405#0" expanded="false" />
             <element signature="e#4506#5098#0" expanded="false" />
-            <element signature="e#4604#5076#0" expanded="false" />
             <element signature="e#5231#5590#0" expanded="false" />
-            <element signature="e#5684#6480#0" expanded="false" />
-            <element signature="e#6600#6824#0" expanded="false" />
-            <element signature="e#6942#7709#0" expanded="false" />
-            <element signature="e#7786#8761#0" expanded="false" />
+            <element signature="e#6898#7694#0" expanded="false" />
+            <element signature="e#7814#8038#0" expanded="false" />
+            <element signature="e#8167#8924#0" expanded="false" />
+            <element signature="e#9001#9976#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,12 +501,11 @@
             <element signature="e#2288#3049#0" expanded="false" />
             <element signature="e#3120#4405#0" expanded="false" />
             <element signature="e#4506#5098#0" expanded="false" />
-            <element signature="e#4604#5076#0" expanded="false" />
             <element signature="e#5231#5590#0" expanded="false" />
-            <element signature="e#5684#6480#0" expanded="false" />
-            <element signature="e#6600#6824#0" expanded="false" />
-            <element signature="e#6942#7709#0" expanded="false" />
-            <element signature="e#7786#8761#0" expanded="false" />
+            <element signature="e#6898#7694#0" expanded="false" />
+            <element signature="e#7814#8038#0" expanded="false" />
+            <element signature="e#8167#8924#0" expanded="false" />
+            <element signature="e#9001#9976#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -474,21 +522,12 @@
             <element signature="e#2288#3049#0" expanded="false" />
             <element signature="e#3120#4405#0" expanded="false" />
             <element signature="e#4506#5098#0" expanded="false" />
-            <element signature="e#4604#5076#0" expanded="false" />
             <element signature="e#5231#5590#0" expanded="false" />
-            <element signature="e#5684#6480#0" expanded="false" />
-            <element signature="e#6600#6824#0" expanded="false" />
-            <element signature="e#6942#7709#0" expanded="false" />
-            <element signature="e#7786#8761#0" expanded="false" />
+            <element signature="e#6898#7694#0" expanded="false" />
+            <element signature="e#7814#8038#0" expanded="false" />
+            <element signature="e#8167#8924#0" expanded="false" />
+            <element signature="e#9001#9976#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mType_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,10 +555,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mType_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WeightedAverage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="199" column="66" lean-forward="false" selection-start-line="199" selection-start-column="66" selection-end-line="199" selection-end-column="66" />
+        <state relative-caret-position="292">
+          <caret line="297" column="48" lean-forward="false" selection-start-line="297" selection-start-column="48" selection-end-line="297" selection-end-column="48" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
             <element signature="e#123#801#0" expanded="false" />
@@ -528,12 +575,11 @@
             <element signature="e#2288#3049#0" expanded="false" />
             <element signature="e#3120#4405#0" expanded="false" />
             <element signature="e#4506#5098#0" expanded="false" />
-            <element signature="e#4604#5076#0" expanded="false" />
             <element signature="e#5231#5590#0" expanded="false" />
-            <element signature="e#5684#6480#0" expanded="false" />
-            <element signature="e#6600#6824#0" expanded="false" />
-            <element signature="e#6942#7709#0" expanded="false" />
-            <element signature="e#7786#8761#0" expanded="false" />
+            <element signature="e#6898#7694#0" expanded="false" />
+            <element signature="e#7814#8038#0" expanded="false" />
+            <element signature="e#8167#8924#0" expanded="false" />
+            <element signature="e#9001#9976#0" expanded="false" />
           </folding>
         </state>
       </provider>

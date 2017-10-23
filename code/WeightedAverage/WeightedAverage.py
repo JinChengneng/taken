@@ -158,6 +158,43 @@ def predictwTypeMonth(wTypeMonthSale,a):
                 future = a*wTypeMonthSale[id][month]+(1-a)*future
         prediction[id] = round(future)
     return prediction
+#计算中类的月份销售
+#返回的monthSales的结构为{中类id：{月份：销量}}
+def mTypeMonthSales(mTypeFile,beginMonth,endMonth):
+    csv_wType = csv.reader(open(mTypeFile, "r"))
+    monthSales = {}
+    for row in csv_wType:
+        if (csv_wType.line_num == 1):
+            continue
+        id = row[0]
+        month = int(row[1][4:6])
+        sales = int(row[2])
+        if (len(id) != 4):
+            exit("文件格式错误")
+        if (month not in range(beginMonth, endMonth + 1)):
+            continue
+        if (id not in monthSales):
+            monthSales[id] = {month: sales}
+        elif (month not in monthSales[id]):
+            monthSales[id][month] = sales
+        else:
+            monthSales[id][month] += sales
+    return monthSales
+#预测中类月销售
+#输入的mTypeMonthSale的结构为{中类id：{月份：销量}}，a为指数平滑的参数
+#返回的prediction的结构为{中类id:月份预测值}
+def predictmTypeMonth2(mTypeMonthSale,a):
+    prediction = {}
+    for id in mTypeMonthSale:
+        months = sorted(mTypeMonthSale[id])
+        future = 0
+        for month in months:
+            if (future == 0):
+                future = mTypeMonthSale[id][month]
+            else:
+                future = a * mTypeMonthSale[id][month] + (1 - a) * future
+        prediction[id] = round(future)
+    return prediction
 #计算中类占大类的比例
 #返回的Ratio的结构为{大类id：{中类id：比例}}
 def mTypeRatio(mTypeFile,beginMonth,endMonth):
@@ -197,9 +234,9 @@ def predictmTypeMonth(predictwType,ratio):
     return prediction
 #进行预测，生成预测文件
 #输入大类的月份预测，中类的月份预测，预测月份的天数，输入文件名
-def predictResult(predictionwType,predictionmType,days,inputFile):
+def predictResult(predictionwType,predictionmType,days,inputFile,outputFile):
     csv_reader = csv.reader(open(inputFile,"r"))
-    output = open("predict result.csv","w")
+    output = open(outputFile,"w")
     for row in csv_reader:
         if(csv_reader.line_num==1):
             output.write("编码,日期,销量\n")
@@ -246,10 +283,17 @@ def validate(predictionwType,predictionmType,days,inputFile):
             exit("格式不正确")
     rmse = math.sqrt(float(errorsqaresum)/count)
     print("分数：%f" % (1/(1+rmse)))
-wTypeMonthSale = wTypeMonthSales("wType_data.csv",1,3)
+
+
+wTypeMonthSale = wTypeMonthSales("wType_data.csv",1,4)
 predictionwType = predictwTypeMonth(wTypeMonthSale,0.5)
-ratio = mTypeRatio("mType_data.csv",1,3)
-predictionmType = predictmTypeMonth(predictionwType,ratio)
-validate(predictionwType,predictionmType,30,"validate_data")
+#ratio = mTypeRatio("mType_data.csv",1,3)
+#predictionmType = predictmTypeMonth(predictionwType,ratio)
+#validate(predictionwType,predictionmType,30,"validate_data")
 #predictResult(predictionwType,predictionmType,30,"format_example.csv")
 
+mTypeMonthSale = mTypeMonthSales("mType_data.csv",1,4)
+predictionmType = predictmTypeMonth2(mTypeMonthSale,0.5)
+#validate(predictionwType,predictionmType,30,"validate_data")
+predictResult(predictionwType,predictionmType,30,"format_example.csv"
+              ,"predict result2.csv")
