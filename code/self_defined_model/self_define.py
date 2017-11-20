@@ -43,7 +43,7 @@ def calculateParameter(training_series,validation_series):
             proper_weight = w
             min_rmse = rmse
     return proper_weight,min_rmse
-
+#获取训练数据和验证数据
 def getTrainingAndValidationData(id):
     salesamount = pd.read_csv("dataEliminatedNoise.csv")
     salesamount["日期"] = salesamount["日期"].map\
@@ -62,6 +62,7 @@ def getTrainingAndValidationData(id):
     validation_data = validation_df["销量"]
     validation_data.index = validation_df["日期"]
     return training_data,validation_data
+#获取包含2月份的训练数据和验证数据
 def getTrainingAndValidationData2(id):
     salesamount = pd.read_csv("dataEliminatedNoise2.csv")
     salesamount["日期"] = salesamount["日期"].map\
