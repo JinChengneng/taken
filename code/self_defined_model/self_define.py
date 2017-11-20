@@ -13,7 +13,7 @@ def weight(date1,date2,match_weight = 100,unmatch_weight = 1):
     if(date1.weekday()==date2.weekday()):
         return match_weight/dis
     else:
-        return unmatch_weight/dis
+        return 0
 #预测指定日期的数量
 def predict(predict_date,training_series,match_weight=100,unmatch_weight=1):
     up_sum = 0
@@ -79,8 +79,8 @@ def getTrainingAndValidationData2(id):
     return training_data,validation_data
 #所有一起预测
 
-if(not os.path.exists("total_self_define3")):
-    os.mkdir("total_self_define3")
+if(not os.path.exists("total_self_define4")):
+    os.mkdir("total_self_define4")
 predicted = []
 templet = pd.read_csv("format_example.csv")
 del templet["销量"]
@@ -95,14 +95,14 @@ for id in templet["编码"].unique():
         predict_result.append(predict(day,pd.concat
         ([training_data,validation_data]),match_weight=param))
     selected_templet["销量"]=predict_result
-    selected_templet.to_csv("total_self_define3\\%d.csv"%id,index = None)
+    selected_templet.to_csv("total_self_define4\\%d.csv"%id,index = None)
 
 total_result = pd.DataFrame()
 for id in templet["编码"].unique():
-    part_result = pd.read_csv("total_self_define3\\%d.csv"%id)
+    part_result = pd.read_csv("total_self_define4\\%d.csv"%id)
     total_result = pd.concat([total_result,part_result])
 total_result["销量"] = total_result["销量"].map(round)
-total_result.to_csv("total_self_define3\\total_result.csv",index = None)
+total_result.to_csv("total_self_define4\\total_result.csv",index = None)
 #param,rmse = calculateParameter(training_data,validation_data)
 #print(param,rmse)
 #print(calculateParameter(training_data,validation_data))

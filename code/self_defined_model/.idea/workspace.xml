@@ -14,14 +14,13 @@
       <file leaf-file-name="self_define.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/self_define.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="81" column="45" lean-forward="true" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#161#511#0" expanded="false" />
-                <element signature="e#603#937#0" expanded="false" />
-                <element signature="e#1122#1519#0" expanded="false" />
-                <element signature="e#2476#3118#0" expanded="false" />
+                <element signature="e#586#920#0" expanded="false" />
+                <element signature="e#1028#1536#0" expanded="false" />
+                <element signature="e#2459#3101#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -43,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="390" />
     <option name="y" value="11" />
     <option name="width" value="912" />
@@ -64,6 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,12 +76,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/self_define.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tsa2/adjust.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,7 +127,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -163,14 +162,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/self_define.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#586#920#0" expanded="false" />
+            <element signature="e#1028#1536#0" expanded="false" />
+            <element signature="e#2459#3101#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self_define.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#161#511#0" expanded="false" />
-            <element signature="e#603#937#0" expanded="false" />
-            <element signature="e#1122#1519#0" expanded="false" />
-            <element signature="e#2476#3118#0" expanded="false" />
+            <element signature="e#586#920#0" expanded="false" />
+            <element signature="e#1028#1536#0" expanded="false" />
+            <element signature="e#2459#3101#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -179,9 +190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -191,10 +199,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#161#511#0" expanded="false" />
-            <element signature="e#603#937#0" expanded="false" />
-            <element signature="e#1122#1519#0" expanded="false" />
-            <element signature="e#2476#3118#0" expanded="false" />
+            <element signature="e#586#920#0" expanded="false" />
+            <element signature="e#1028#1536#0" expanded="false" />
+            <element signature="e#2459#3101#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -203,22 +210,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tsa2/arimaWithDecompose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tsa2/adjust.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/self_define.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="81" column="45" lean-forward="true" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#161#511#0" expanded="false" />
-            <element signature="e#603#937#0" expanded="false" />
-            <element signature="e#1122#1519#0" expanded="false" />
-            <element signature="e#2476#3118#0" expanded="false" />
+            <element signature="e#586#920#0" expanded="false" />
+            <element signature="e#1028#1536#0" expanded="false" />
+            <element signature="e#2459#3101#0" expanded="false" />
           </folding>
         </state>
       </provider>
